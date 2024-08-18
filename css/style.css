@@ -1,0 +1,104 @@
+*{
+    padding: 0 2%;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+main{
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.botoes{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    
+}
+
+.button{
+    border: none;
+    margin: 2px;
+    padding: 5px;
+    transition: .5s;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.botoes > #desligar{
+    grid-column: 1 / -1;
+    align-self: center;
+    justify-self: center;
+}
+
+
+#vermelho{
+    background-color: rgb(181, 70, 70);
+    
+}
+
+#amarelo{
+    background-color: rgb(226, 226, 39);
+}
+
+#verde{
+    background-color: rgb(48, 204, 48);
+}
+
+#automatico{
+    background-color: rgb(179, 162, 162);
+}
+
+#desligar{
+    background-color: black;
+    color: white;
+    transition: .5s;
+}
+
+#amarelo:hover{
+    transform: scale(1.05);
+}
+#vermelho:hover{
+    transform: scale(1.05);
+}
+#verde:hover{
+    transform: scale(1.05);
+}
+#automatico:hover{
+    transform: scale(1.05);
+}
+
+#amarelo:active{
+    text-decoration: underline;
+    color: white;
+}
+
+#vermelho:active{
+    text-decoration: underline;
+    color: white;
+}
+
+#verde:active{
+    text-decoration: underline;
+    color: white;
+}
+
+#automatico:active{
+    text-decoration: underline;
+    color: white;
+}
+
+#desligar:hover{
+    transform: scale(1.05);
+}
+
+#desligar:active{
+    text-decoration: underline;
+    color: red;
+}
+
+
+
+
